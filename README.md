@@ -5,9 +5,23 @@
 ![crypto640](https://user-images.githubusercontent.com/47632450/142738474-b6c9fa3c-702e-4f2b-af90-ec0cc2bb7792.gif)
 
 ## To Run on your Local Machine
-### Clone/Download the repository 
+### 1. Clone/Download the repository 
 You may setup the repository on your local machine by either downloading it or running the following line on `terminal`.
 ```Batchfile
-  git clone https://github.com/h3lio5/CryptoWorld.git
-
+  git clone https://github.com/h3lio5/CryptoKingdom.git
+  cd CryptoKingdom
 ```
+### 2. Install the dependencies and start the server
+```Batchfile
+  npm install 
+  npm run start
+```
+### 3. Deployment
+```Batchfile
+npm run build
+```
+After generating the build folder, deploy it to on a website hosting service like [netlify](https://www.netlify.com).
+
+### References
+This amazing [youtube tutorial](https://www.youtube.com/watch?v=9DDX3US3kss&list=PLJpz8xVsXFQ9BWJ__oYkRuJQAMwEWgRjg&index=4).
+
